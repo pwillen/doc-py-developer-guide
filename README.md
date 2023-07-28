@@ -10,7 +10,7 @@
 Host * github.com
   HostName github.com
   User git
-  IdentityFile .ssh\<id_rsa>
+  IdentityFile ~/.ssh/<id_rsa>
   IdentitiesOnly yes
 ```
 Note: The config may point to more than one private key
@@ -18,13 +18,13 @@ Note: The config may point to more than one private key
 Host * github.com
   HostName github.com
   User git
-  IdentityFile .ssh\<id_rsa>
+  IdentityFile ~/.ssh/<id_rsa>
   IdentitiesOnly yes
 
 Host * github.com
   HostName github.com
   User git
-  IdentityFile .ssh\<id_rsa_2>
+  IdentityFile ~/.ssh/<id_rsa_2>
   IdentitiesOnly yes
 ```
 
