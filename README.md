@@ -13,7 +13,7 @@ Host * github.com
   IdentityFile .ssh\<id_rsa>
   IdentitiesOnly yes
 ```
-Note: The config my point to more than one private key
+Note: The config may point to more than one private key
 ```
 Host * github.com
   HostName github.com
