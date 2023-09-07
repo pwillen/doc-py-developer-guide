@@ -41,7 +41,9 @@ Host * github.com
 `python manage.py migrate` - Apply Migrations
 ### Database Shell
 `python manage.py shell`
-
+`<class_name>.objects.all()`
+`<class_name>.objects.filter(id=<id>)`
+`<class_name>.objects.filter(<parameter>__startswith='')`
 
 
 
