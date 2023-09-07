@@ -27,4 +27,14 @@ Host * github.com
   IdentityFile ~/.ssh/<id_rsa_2>
   IdentitiesOnly yes
 ```
+## Django
+### Create Project
+`django-admin startproject <project_name>`
+### Start Server
+`python manage.py runserver`
+### Create App
+`python manage.py startapp <app_name>`
+
+
+
 
