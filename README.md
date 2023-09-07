@@ -44,6 +44,9 @@ Host * github.com
 `<class_name>.objects.all()`
 `<class_name>.objects.filter(id=<id>)`
 `<class_name>.objects.filter(<parameter>__startswith='')`
+###
+`python manage.py createsuperuser`
+
 
 
 
