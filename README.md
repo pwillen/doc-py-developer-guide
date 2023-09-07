@@ -34,6 +34,14 @@ Host * github.com
 `python manage.py runserver`
 ### Create App
 `python manage.py startapp <app_name>`
+### Migrations
+`python manage.py sqlmigrate <module_name> <migration_name>` - View Migration
+#### Migration Changes
+`python manage.py makemigrations <module_name>` - Add/Create Migrations
+`python manage.py migrate` - Apply Migrations
+### Database Shell
+`python manage.py shell`
+
 
 
 
