@@ -39,11 +39,15 @@ Host * github.com
 #### Migration Changes
 `python manage.py makemigrations <module_name>` - Add/Create Migrations
 `python manage.py migrate` - Apply Migrations
-### Database Shell
-`python manage.py shell`
-`<class_name>.objects.all()`
-`<class_name>.objects.filter(id=<id>)`
-`<class_name>.objects.filter(<parameter>__startswith='')`
+### Database Shell Functions
+```
+python manage.py shell  # Start Shell
+<class_name>.objects.all()  # List Model Objects
+<class_name>.objects.filter(id=<id>)  # Filter Model Objects
+<class_name>.objects.filter(<parameter>__startswith='')  # Another Filter Model Objects
+<class_name>.<set_name>_set.create()  # Shortcut to Create Objects
+<class_name>.<set_name>_set.count() # Count Model Objects
+```
 ###
 `python manage.py createsuperuser`
 
