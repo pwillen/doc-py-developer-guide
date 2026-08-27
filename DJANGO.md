@@ -11,6 +11,8 @@
 `python manage.py makemigrations <module_name>` - Add/Create Migrations
 `python manage.py migrate` - Apply Migrations
 ## Database Shell Functions
+`python manage.py dbshell` - Start Database Shell
+## Shell Functions
 ```
 python manage.py shell  # Start Shell
 <class_name>.objects.all()  # List Model Objects
